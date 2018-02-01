@@ -1,0 +1,23 @@
+body,
+.container {
+  background-color: #f7f7ee;
+}
+/*
+a,
+a:active,
+a:hover
+    color: #800000
+
+a:hover
+    color: black
+
+// Menu
+ul.topnav li a
+    color: black
+
+ul.topnav li a:hover.active 
+    background-color: white
+
+ul.topnav li a.active 
+    background-color: white
+*/

@@ -1,0 +1,9 @@
+node_modules/
+stage/
+dist/
+package-lock.json
+art
+data
+notes
+tmp
+vender

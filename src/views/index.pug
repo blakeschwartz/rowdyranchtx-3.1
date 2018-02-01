@@ -1,0 +1,88 @@
+extends ./inc/layout
+
+
+block content
+
+    #app
+
+    .hidden-xs
+        h1.main-title Welcome to the <span class="rr-title"><span class="rr-title-cap">R</span>owdy <span class="rr-title-cap">R</span>anch</span> <span class="rr-title-tx">TX</span>
+
+        //
+            figure
+                img(src="/image/ranch.001-1024.png" alt="Our pond and geese")
+                figcaption Our pond and geese.
+
+
+    .row
+        .col-sm-4
+
+            p Hello...
+
+        .col-sm-8
+            // Carousel
+            div(id="myCarousel" class="carousel slide" data-ride="carousel")
+                // Indicators
+                ol(class="carousel-indicators")
+                    li(data-target="#myCarousel" data-slide-to="0" class="active")
+                        li(data-target="#myCarousel" data-slide-to="1")
+                        li(data-target="#myCarousel" data-slide-to="2")
+                        li(data-target="#myCarousel" data-slide-to="3")
+                        li(data-target="#myCarousel" data-slide-to="4")
+                        li(data-target="#myCarousel" data-slide-to="5")
+
+                div(class="carousel-inner" role="listbox")
+
+                    div(class="item active")
+                        img(class="first-slide" width="100%" src="/image/carousel/anabelle.001.png" alt="First slide")
+                        div(class="container")
+                            div(class="carousel-caption")
+
+
+                    div(class="item")
+                        img(class="second-slide" width="100%" src="/image/carousel/birth-2016.png" alt="Second slide")
+                        div(class="container")
+                            div(class="carousel-caption")
+
+                    div(class="item")
+                        img(class="second-slide" width="100%" src="/image/carousel/chickens.001.png" alt="Second slide")
+                        div(class="container")
+                            div(class="carousel-caption")
+
+                    div(class="item")
+                        img(class="second-slide" width="100%" src="/image/carousel/kids-2015-0001.png" alt="Second slide")
+                        div(class="container")
+                            div(class="carousel-caption")
+
+                    div(class="item")
+                        img(class="second-slide" width="100%" src="/image/carousel/milking-2015-0001.png" alt="Second slide")
+                        div(class="container")
+                            div(class="carousel-caption")
+
+                    div(class="item")
+                        img(class="second-slide" width="100%" src="/image/carousel/rowdy.002.png" alt="Second slide")
+                        div(class="container")
+                            div(class="carousel-caption")
+
+                a(class="left carousel-control" href="#myCarousel" role="button" data-slide="prev")
+                    span(class="glyphicon glyphicon-chevron-left" aria-hidden="true")
+                    span(class="sr-only") Previous
+                    
+                a(class="right carousel-control" href="#myCarousel" role="button" data-slide="next")
+                    span(class="glyphicon glyphicon-chevron-right" aria-hidden="true")
+                    span(class="sr-only") Next
+
+
+
+            div(class="clearfix hidden-sm-up")
+
+            div(class="clearfix hidden-xs-down")
+
+
+            .center
+                :marked
+                    The Rowdy Ranch TX is located in Bastrop County, Texas. We breed Nubian and Nigerian Dwarf Dairy Goats, registered with the American Dairy 
+                    Goat Association. We also breed and cross Kiko and Boer goats to achieve a Texas Genemaster herd. 
+
+                    See http://facebook.com/rowdyranchtx for recent pictures and events.
+

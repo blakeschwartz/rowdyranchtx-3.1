@@ -1,0 +1,75 @@
+doctype html 
+html(lang="en")
+    head 
+        title #{title} - Test Rowdy Ranch
+
+        meta(charset="utf-8")
+        meta(content="IE=edge", http-equiv="X-UA-Compatible")
+        meta(content="width=device-width, initial-scale=1", name="viewport")
+
+        //link(href="/css/bootstrap.css", rel="stylesheet")
+        //link(href="/css/darkly/bootstrap.min.css", rel="stylesheet")
+        //link(href="/css/slate/bootstrap.min.css", rel="stylesheet")
+        //link(href="/css/superhero/bootstrap.min.css", rel="stylesheet")
+        link(href="/css/yeti/bootstrap.min.css", rel="stylesheet")
+
+        link(rel='stylesheet', href='/css/ancestry.css', type='text/css')
+
+        link(rel='stylesheet', href='/css/blueimp-gallery.min.css', type='text/css')
+        link(rel='stylesheet', href='/css/blueimp-gallery-indicator.css', type='text/css')
+
+        //link(rel='stylesheet', href='/css/style.default.css', type='text/css')
+
+        link(rel='stylesheet', href='/css/styles.css', type='text/css')
+        //link(rel='stylesheet', href='/css/color.css', type='text/css')
+
+        link(href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet")
+
+        script.
+
+            function OpenWindow(pageToLoad, winName)
+            {
+                xposition = 100; 
+                yposition = 1200;
+                args = "width=800," 
+                    + "height=650," 
+                    + "location=0," 
+                    + "menubar=0,"
+                    + "resizable=1,"
+                    + "scrollbars=1,"
+                    + "status=0," 
+                    + "titlebar=0,"
+                    + "toolbar=0,"
+                    + "hotkeys=0";
+                window.open( pageToLoad,winName,args )
+            } 
+
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-74487156-1', 'auto');
+            ga('send', 'pageview');
+
+
+    //body(style="background-color: #330000")
+    //body(style="background-color: #f7f7ee")
+    //    .container(style="background-color: #f7f7ee; padding: 1em")
+    
+    body
+        include ./header-test
+
+        section#content
+            block content
+
+        include ./footer-test
+
+        script(src="/js/jquery-3.1.0.min.js")
+        script(src="/js/bootstrap.js")
+        //script(src="/js/script.js")
+
+

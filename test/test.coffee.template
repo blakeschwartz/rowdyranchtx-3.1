@@ -1,0 +1,26 @@
+#
+# This is a file of template tests.
+#
+#
+
+assert = require('chai').assert
+should = require('chai').should()
+
+
+describe 'First Test', ->
+
+  describe 'Test String', ->
+
+    it 'string should exist', ->
+      should.exist "a string"
+
+
+describe 'Add some numbers', ->
+
+  it 'should sum correctly', ->
+    sum = 0
+    for num in [1..5]
+      sum = sum + num
+
+    should.equal 15, sum
+

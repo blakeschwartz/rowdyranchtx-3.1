@@ -1,0 +1,40 @@
+body {
+  border-width: 1;
+  border-style: solid;
+  border-color: #f00;
+}
+header {
+  border-width: 1;
+  border-style: solid;
+  border-color: #008000;
+}
+footer {
+  border-width: 1;
+  border-style: solid;
+  border-color: #ff0;
+}
+#container {
+  border-width: 1;
+  border-style: solid;
+  border-color: #ffa500;
+}
+#content {
+  border-width: 1;
+  border-style: solid;
+  border-color: #800080;
+}
+aside#sidebar {
+  border-width: 1;
+  border-style: solid;
+  border-color: #800080;
+}
+#header-img {
+  border-width: 1;
+  border-style: solid;
+  border-color: #000;
+}
+#header-title {
+  border-width: 1;
+  border-style: solid;
+  border-color: #000;
+}

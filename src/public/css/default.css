@@ -1,0 +1,120 @@
+/*
+ * default.styl
+ *
+ */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif;
+}
+#page {
+  max-width: 61.75em /* 988px / 16px = 61.75em */;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#header {
+  padding: 1em 0 1em 0;
+}
+#header h1 {
+  text-align: center;
+  font-size: 3em;
+}
+#footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0px;
+  padding: 2em 0 2em 0;
+}
+#main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#aside {
+  float: left;
+  width: 18%;
+  margin: 0;
+  padding: 0;
+}
+#content {
+  float: right;
+  width: 78%;
+  margin: 0;
+  padding: 0;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav ul.right {
+  float: right;
+  list-style-type: none;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav ul.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.nav li a {
+  display: block;
+  text-align: left;
+  padding-top: 1em;
+  text-decoration: none;
+}
+ul.nav2 li a {
+  display: block;
+  text-align: left;
+  padding: 2px 1em;
+  text-decoration: none;
+}
+ul.nav li a:hover {
+  text-decoration: underline;
+}
