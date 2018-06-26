@@ -1,6 +1,6 @@
 # Disclaimer
 
-### This is a partial checkin for the rowdyranchtx.com website. The intent is to share the internal code but not the proprietary artifacts of the site. 
+### This is an old version and a partial checkin for the rowdyranchtx.com website. The intent is to share the internal code but not the proprietary artifacts of the site. 
 
 # Introduction
 
